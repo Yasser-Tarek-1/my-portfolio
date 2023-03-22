@@ -8,4 +8,21 @@ import git from "./skills/git.png";
 import redux from "./skills/redux.png";
 import tailwind from "./skills/tailwind.png";
 
-export { html, css, javascript, reactjs, mui, figma, git, redux, tailwind };
+import netflix from "./projects/netflix.png";
+import gym from "./projects/gymapp.png";
+import gsuite from "./projects/gsuite.png";
+
+export {
+  html,
+  css,
+  javascript,
+  reactjs,
+  mui,
+  figma,
+  git,
+  redux,
+  tailwind,
+  netflix,
+  gym,
+  gsuite,
+};

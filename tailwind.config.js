@@ -4,10 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        main: "#38bdf8",
+        main: "#0ea5e9",
         secondary: "#9ca3af",
       },
-      letterSpacing: { tightest: "-.075em" },
     },
   },
   plugins: [],

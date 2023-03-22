@@ -60,7 +60,7 @@ const data = [
   },
 ];
 
-const Tech = () => {
+const Skills = () => {
   return (
     <div className="flex items-center justify-center pt-28 flex-wrap gap-5">
       {data.map(({ id, title, img }) => {
@@ -78,4 +78,4 @@ const Tech = () => {
   );
 };
 
-export default Tech;
+export default Skills;
