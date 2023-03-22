@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply w-full  bg-gradient-to-b from-slate-900 to-slate-900 text-white;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-gradient-to-r from-sky-500 to-teal-300 inline-block text-transparent bg-clip-text;
+  }
+}
