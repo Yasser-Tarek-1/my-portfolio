@@ -1,7 +1,14 @@
 import React from "react";
+import About from "./components/About";
+import Main from "./components/Main";
 
 const App = () => {
-  return <div className="min-h-screen"></div>;
+  return (
+    <>
+      <Main />
+      <About />
+    </>
+  );
 };
 
 export default App;
