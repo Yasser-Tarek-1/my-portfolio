@@ -13,7 +13,9 @@ const ProjectCard = ({
   return (
     <section
       className={`flex items-center justify-between gap-5 ${
-        id === 2 ? "md:flex-row-reverse flex-col" : "flex-col md:flex-row"
+        id === 2 || id === 4
+          ? "md:flex-row-reverse flex-col"
+          : "flex-col md:flex-row"
       }`}
     >
       <div className="shadow-[rgba(0,_0,_0,_0.4)_0px_1px_30px] shadow-main">
@@ -25,7 +27,7 @@ const ProjectCard = ({
       </div>
       <div
         className={`flex items-start flex-col gap-3 ${
-          id === 2 ? " md:mr-20" : "md:ml-20"
+          id === 2 || id === 4 ? " md:mr-20" : "md:ml-20"
         }`}
       >
         <h3 className="text-3xl sm:text-4xl sm:text-5x font-bold sm:leading-[60px] capitalize">

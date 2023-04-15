@@ -11,6 +11,7 @@ import tailwind from "./skills/tailwind.png";
 import netflix from "./projects/netflix.png";
 import gym from "./projects/gymapp.png";
 import gsuite from "./projects/gsuite.png";
+import mernstore from "./projects/mernstore.png";
 
 export {
   html,
@@ -25,4 +26,5 @@ export {
   netflix,
   gym,
   gsuite,
+  mernstore,
 };

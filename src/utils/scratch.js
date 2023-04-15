@@ -1,4 +1,4 @@
-import { netflix, gym, gsuite } from "../assets";
+import { netflix, gym, gsuite, mernstore } from "../assets";
 
 export const projects = [
   {
@@ -25,6 +25,26 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Mern Store",
+    description: `Mern store is a full stack ecommerce application.
+    used React,  RTK Query and Mui for UI,
+    in server-side used node.js and express.`,
+    image: mernstore,
+    // eslint-disable-next-line no-sparse-arrays
+    tags: [
+      {
+        id: 10,
+        name: "react",
+      },
+      { id: 20, name: "redux query" },
+      ,
+      { id: 30, name: "mui" },
+    ],
+    source_code: "https://github.com/Yasser-Tarek-1/mern-ecommerce",
+    live_demo: "https://mernstore.netlify.app/",
+  },
+  {
+    id: 3,
     name: "Exercises Application",
     description: `A complete integrated website to take you from scratch to mastering the exercises,
        I used rapidapi to fetch data.
@@ -47,7 +67,7 @@ export const projects = [
     live_demo: "https://gym-exercise-app-1.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     name: "Google Search App",
     description: `A valid project is based on Google search APIs,A smaller version of the global search engine Google,
       It could have more features, but the APIs don't allow and Only for 100 Request in Day.
