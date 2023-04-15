@@ -30,9 +30,10 @@ const About = () => {
             websites with several clients
           </p>
           <a
-            href="#e"
+            href="https://drive.google.com/file/d/14kmiSJzZPq3RFSoLKko3hdiaUw002wdG/view?usp=share_link"
             target="_blank"
             className="underline -mt-2 capitalize flex items-center gap-4 w-fit"
+            rel="noreferrer"
           >
             <BsFillCloudDownloadFill className="text-main text-3xl" /> Show My
             CV
